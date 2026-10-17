@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "phase": "Phase 1E final development freeze",
+  "protocol_sha256": "442635788321fd528747c5e335aa5dabc06327d4f0226fa86db3a5a010446f08",
+  "historical_phase1c_decision": "NO_GO",
+  "historical_phase1d_decision": "AMENDMENT_NOT_CONFIRMED",
+  "development_queries": 5400,
+  "development_cities": [
+    "Bangkok",
+    "Brussels",
+    "BuenosAires",
+    "Chicago",
+    "Medellin",
+    "Osaka",
+    "PRS",
+    "Phoenix",
+    "WashingtonDC"
+  ],
+  "selected_operating_points": [
+    {
+      "method": "retrieval_scheduler",
+      "threshold": 0.42804606315114796,
+      "recall_at_1": 0.8183333333333334,
+      "mean_m": 39.625,
+      "city_noninferior_count": 8,
+      "feasible": true
+    },
+    {
+      "method": "one_shot_inlier_gate",
+      "threshold": 0.6528652766198414,
+      "recall_at_1": 0.8183333333333334,
+      "mean_m": 19.833333333333332,
+      "city_noninferior_count": 9,
+      "feasible": true
+    },
+    {
+      "method": "progressive_inlier_only",
+      "threshold": 0.47164774278243266,
+      "recall_at_1": 0.8183333333333334,
+      "mean_m": 19.517592592592592,
+      "city_noninferior_count": 9,
+      "feasible": true
+    },
+    {
+      "method": "full_peav",
+      "threshold": 0.45321262287588476,
+      "recall_at_1": 0.820925925925926,
+      "mean_m": 14.1,
+      "city_noninferior_count": 8,
+      "feasible": true
+    }
+  ],
+  "thresholds": {
+    "retrieval_scheduler": 0.42804606315114796,
+    "one_shot_inlier_gate": 0.6528652766198414,
+    "progressive_inlier_only": 0.47164774278243266,
+    "full_peav": 0.45321262287588476
+  },
+  "strongest_adaptive_comparator": "progressive_inlier_only",
+  "full_vs_comparator_mean_depth_reduction": 0.2775748375160112,
+  "predictive_gate_pass": true,
+  "fuf_spatial_score_contract_sha256": "4cf454c6ab240f04c63d4ae3b0b92ffe1b7746c68bf562ecd90464a20dda8d9a",
+  "protected_primary_reference": "fixed_m50",
+  "protected_primary_noninferiority_margin_pp": -0.5,
+  "protected_bootstrap_replicates": 100000,
+  "protected_bootstrap_seed": 20260926,
+  "protected_labels_opened": false
+}

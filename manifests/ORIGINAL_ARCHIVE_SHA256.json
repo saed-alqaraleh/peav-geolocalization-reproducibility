@@ -1,0 +1,14 @@
+{
+  "primary_protected": {
+    "sha256": "f4d7bf6ee0a4c60270a3723be09a6d84fc2141d821de1ce55f630d3d1eddf2af",
+    "relative_path": "PEAV_FINAL_PROTECTED_EVALUATION_v1.zip"
+  },
+  "posthoc_transfer": {
+    "sha256": "3692d28807b8b595fc049f92486ce1c902f42aa2c9479d8593116c3fa890fc3d",
+    "relative_path": "PEAV_POSTHOC_TRANSFER_EXPLANATION_FINAL_v2_SELF_CONTAINED.zip"
+  },
+  "phase1e_freeze": {
+    "sha256": "b2a33a6cd0e40b6cdfe8e35ef725619c8479226add226cb7110b111e1e952530",
+    "relative_path": "MPEF_VPR_New_Project/peav/final_pipeline_v1/phase1e_final_dev/PHASE1E_FINAL_DEV_FREEZE.json"
+  }
+}

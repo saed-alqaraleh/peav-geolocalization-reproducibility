@@ -1,0 +1,7 @@
+dataset,query_id,retriever,backend,stop_depth,p_full,recovery_depth,global_entropy,best_inliers,best_inlier_ratio,joint_hull_max,percentile_disagreement,selection_rule
+17-places,17places_q_000395,r2former,disk,5,0.2750333389451757,20.0,0.7060832291513353,8.0,0.2608695652173913,0.1866305967647949,0.4797979797979798,closest to dataset-median Full-PEAV continuation probability among premature stops
+amstertime,am_q_0842,r2former,disk,5,0.3173750587661574,20.0,0.5551437874982884,7.0,0.2727272727272727,0.1440509377436489,0.4797979797979798,closest to dataset-median Full-PEAV continuation probability among premature stops
+gardens-point,gp_q_0145,r2former,disk,5,0.2853329198057395,10.0,0.6759702519889955,70.0,0.330188679245283,0.1396564973090162,0.4838383838383837,closest to dataset-median Full-PEAV continuation probability among premature stops
+msls,msls_q_0114,r2former,disk,5,0.3153574907006727,30.0,0.4644976835832889,13.0,0.2765957446808511,0.1202740673324435,0.4797979797979798,closest to dataset-median Full-PEAV continuation probability among premature stops
+spedtest,spedtest_q_000156,r2former,aliked,10,0.2894660779931276,20.0,0.7358528297402099,8.0,0.8,0.0846277819043027,0.4606060606060606,closest to dataset-median Full-PEAV continuation probability among premature stops
+tokyo247,tokyo247_q_000041,cosplace,disk,20,0.2752848545659008,30.0,0.5434235653566662,33.0,0.6666666666666666,0.1516968582989327,0.4165337586390218,closest to dataset-median Full-PEAV continuation probability among premature stops

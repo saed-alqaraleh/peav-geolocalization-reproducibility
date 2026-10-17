@@ -1,0 +1,45 @@
+{
+  "development_cities": 9,
+  "development_queries": 5400,
+  "development_reinterpretation": "Because validation and calibration outcomes have already been opened in Phases 1C/1D, all 5,400 non-training GSV queries are now treated explicitly as exploratory development evidence.",
+  "historical_phase1c_decision": "NO_GO",
+  "historical_phase1d_decision": "AMENDMENT_NOT_CONFIRMED",
+  "methods": [
+    "retrieval_scheduler",
+    "one_shot_inlier_gate",
+    "progressive_inlier_only",
+    "full_peav"
+  ],
+  "phase": "Phase 1E final development freeze",
+  "phase1e_go_gate": {
+    "full_safety": "full PEAV itself must satisfy the same pooled and 8-of-9 city safety rule",
+    "full_vs_comparator_cost": "full PEAV mean depth at least 20% lower than strongest adaptive comparator",
+    "predictive_component": "Full AUPRC > max(G,I) at >=2 depths and >=0.02 at >=1 depth"
+  },
+  "project": "PEAV",
+  "protected_labels_opened": false,
+  "protected_primary_protocol_if_phase1e_passes": {
+    "bootstrap_replicates": 100000,
+    "bootstrap_seed": 20260926,
+    "cluster": "physical query; all 2 retrievers x 2 backends remain together",
+    "dataset_retriever_backend_results": "descriptive transfer analyses; not separate tuning gates",
+    "frontier_comparator": "frozen strongest adaptive comparator selected only on development",
+    "frontier_gate": "lower 95% CI for Recall@1(full-comparator) >= -0.5 pp; mean depth reduction >=20%; upper 95% CI for depth(full-comparator) < 0",
+    "m100": "fixed m=100 is secondary sensitivity only; controller still targets m=50",
+    "primary_noninferiority": "lower bound of 95% physical-query-clustered, dataset-stratified bootstrap CI for (full PEAV Recall@1 - fixed m=50 Recall@1) >= -0.5 pp",
+    "primary_pooling": "equal-dataset pooling over six protected datasets",
+    "reference": "fixed m=50"
+  },
+  "status": "FROZEN_BEFORE_PHASE1E_THRESHOLD_SCAN",
+  "strongest_adaptive_comparator": "among retrieval_scheduler, one_shot_inlier_gate, progressive_inlier_only, the feasible method with minimum pooled mean verification depth; ties higher Recall@1 then name",
+  "threshold_rule": {
+    "candidate_thresholds": "all empirical method probability breakpoints over the 5,400 development queries",
+    "city_safety": "at least 8 of 9 development cities individually within -0.5 pp of fixed m=50",
+    "objective": "minimum pooled mean verification depth",
+    "pooled_safety": "Recall@1 >= fixed m=50 Recall@1 - 0.25 percentage points",
+    "tie_breaks": [
+      "higher pooled Recall@1",
+      "lower threshold"
+    ]
+  }
+}

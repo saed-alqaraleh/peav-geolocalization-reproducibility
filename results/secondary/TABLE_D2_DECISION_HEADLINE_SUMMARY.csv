@@ -1,0 +1,3 @@
+policy,total_reached_decisions,total_stop_decisions,total_continue_decisions,total_jointly_reachable_full_vs_inlier_disagreements,premature_stops,unnecessary_continues,useful_continues,premature_stop_rate,unnecessary_continue_rate,useful_continue_rate,missed_rescue_opportunities,unnecessary_candidate_verifications
+full_peav,26128,9271,16857,5020,350,15090,1767,0.03775213029878115,0.8951770777718455,0.10482292222815448,350,195065
+progressive_inlier_only,25542,9681,15861,5020,185,13711,2150,0.01910959611610371,0.8644473866717105,0.13555261332828952,185,174015

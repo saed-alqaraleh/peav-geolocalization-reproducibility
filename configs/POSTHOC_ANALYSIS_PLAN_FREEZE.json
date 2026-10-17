@@ -1,0 +1,49 @@
+{
+  "analyses": {
+    "E10": "premature_stop_error_anatomy",
+    "E11": "decision_depth_transfer_degradation",
+    "E12": "retriever_backend_robustness",
+    "E13": "dataset_level_transfer_characterization",
+    "E6": "discrimination_and_calibration_transfer",
+    "E7": "marginal_feature_distribution_shift",
+    "E8": "feature_target_and_conditional_shift",
+    "E9": "full_vs_progressive_inlier_disagreement"
+  },
+  "central_question": "Why does richer stopping evidence improve continuation prediction during development yet transfer worse than a simpler progressive inlier signal under cross-dataset evaluation?",
+  "frozen_constraints": [
+    "protected datasets",
+    "query inclusion criteria",
+    "retrievers",
+    "local backends",
+    "candidate lists",
+    "matching outputs",
+    "geometric verification outputs",
+    "continuation target",
+    "verification depths",
+    "frozen policy thresholds",
+    "primary Recall@1 endpoint",
+    "noninferiority margin",
+    "dataset weighting",
+    "physical-query clustering",
+    "protected evaluation results"
+  ],
+  "new_exploratory_seed": 20260927,
+  "phase": "post_protected_transfer_explanation",
+  "primary_existing_bootstrap_replicates": 100000,
+  "primary_existing_seed": 20260926,
+  "prohibited": [
+    "fit a new controller on protected data",
+    "tune a new threshold on protected labels",
+    "select or remove features to improve protected performance",
+    "change continuation target or noninferiority criterion",
+    "select favorable retriever/backend combinations",
+    "exclude unfavorable datasets",
+    "present any post-protected threshold sweep as independent validation",
+    "conceal Phase1C or Phase1D failures"
+  ],
+  "project": "PEAV",
+  "protected_retuning": false,
+  "resampling": "dataset-stratified physical-query clustered; matched retriever/backend observations preserved",
+  "statistical_unit": "physical query",
+  "status": "POST_HOC_EXPLORATORY_AFTER_FROZEN_PROTECTED_EVALUATION"
+}

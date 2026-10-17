@@ -1,0 +1,53 @@
+{
+  "backends": {
+    "aliked": {
+      "merged_table_sha256": "e0f44514e5c2219821263f1d2b1f230fcc2792268544daf761c59dfb4a0c42da",
+      "physical_queries": 3331,
+      "retriever_backend_cells": 6662,
+      "six_datasets": [
+        "msls",
+        "tokyo247",
+        "gardens-point",
+        "spedtest",
+        "amstertime",
+        "17-places"
+      ],
+      "status": "PASS"
+    },
+    "disk": {
+      "merged_table_sha256": "a77aab458f4b2555d998d639d1fe9c45ee4fa3f5e16018598522d36efb45f1ab",
+      "physical_queries": 3331,
+      "retriever_backend_cells": 6662,
+      "six_datasets": [
+        "msls",
+        "tokyo247",
+        "gardens-point",
+        "spedtest",
+        "amstertime",
+        "17-places"
+      ],
+      "status": "PASS"
+    }
+  },
+  "note": "Absolute Drive paths and private pipeline staging paths have intentionally been omitted. Source records are available in the original verified archives.",
+  "post_freeze_label_open": {
+    "candidate_rows_in_source": 1332400,
+    "protected_retuning_performed": false,
+    "source_label_file_sha256": "7e06553b93e7ab9051a8ac92768dcce703db08c9bf22a9e6aaa9c1391773a0f5",
+    "status": "PROTECTED_LABELS_OPENED_AFTER_ALL_FREEZES_AND_WORKERS"
+  },
+  "protected_label_gate_before_open": {
+    "no_protected_retuning": true,
+    "phase1e_freeze_sha256": "b2a33a6cd0e40b6cdfe8e35ef725619c8479226add226cb7110b111e1e952530",
+    "protected_labels_opened": false,
+    "status": "PASS"
+  },
+  "records": "sanitized research-fidelity representation of frozen source records",
+  "source_record_sha256": {
+    "ALIKED_WORKER_COMPLETE.json": "ddfd3ba4ea1d0e74d4fe1b77e116ec173b91153f1462708bfaa39730d0dbf220",
+    "DISK_WORKER_COMPLETE.json": "b0c282fb45e3d432a6f8273e56ee2e0cc4380656476ad3d52dd2da2a825d9dd7",
+    "PRE_PROTECTED_LABEL_GATE.json": "ab484baf71da53f095d900b64e56db515702dbca185efbc7db65fd9473d8a637",
+    "PROTECTED_LABEL_OPEN_RECORD.json": "d166a8bc2bdf6c0936f5bf9f00df893c3e024c8157c148425c59691badbfcd12"
+  },
+  "study": "PEAV IJGI"
+}
