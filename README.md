@@ -54,4 +54,4 @@ The repository does not include manuscript text, article figures, original bench
 
 Run `python scripts/verify_checksums.py` to check the published evidence against [`SHA256SUMS`](SHA256SUMS). Frozen protocol and archive provenance are recorded in [`docs/PROVENANCE.md`](docs/PROVENANCE.md). Reproduction details are in [`docs/REPRODUCE.md`](docs/REPRODUCE.md).
 
-The computational package is associated with the study on the transferability of adaptive verification for visual geolocalization. Citation details will follow the journal's final bibliographic record.
+The package is associated with research on the transferability of adaptive verification in visual geolocalization. Please credit the original benchmark and software providers listed in the resource documentation.
