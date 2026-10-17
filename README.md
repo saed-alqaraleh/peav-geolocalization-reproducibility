@@ -1,5 +1,7 @@
 # PEAV: Reproducible Evaluation for Visual Geolocalization
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23437658.svg)](https://doi.org/10.5281/zenodo.23437658)
+
 Executable numerical evaluation, frozen experimental settings, and derived evidence for **progressive evidence-aware verification (PEAV)** under cross-environment transfer.
 
 This repository provides a self-contained, CPU-based replay of the frozen evaluation results. No pretrained models, GPUs, external datasets, or API keys are needed for the included verification tasks.
@@ -55,3 +57,7 @@ The repository does not include manuscript text, article figures, original bench
 Run `python scripts/verify_checksums.py` to check the published evidence against [`SHA256SUMS`](SHA256SUMS). Frozen protocol and archive provenance are recorded in [`docs/PROVENANCE.md`](docs/PROVENANCE.md). Reproduction details are in [`docs/REPRODUCE.md`](docs/REPRODUCE.md).
 
 The package is associated with research on the transferability of adaptive verification in visual geolocalization. Please credit the original benchmark and software providers listed in the resource documentation.
+
+## Archival citation
+
+Version **v1.0.0** of this reproducibility package is archived on Zenodo: [10.5281/zenodo.23437658](https://doi.org/10.5281/zenodo.23437658). This DOI identifies the frozen software and derived evaluation resources for the release; the present repository provides the maintained source and numerical replay instructions.
