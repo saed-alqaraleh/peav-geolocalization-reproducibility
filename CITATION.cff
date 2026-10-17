@@ -8,8 +8,10 @@ date-released: 2026-10-17
 authors:
   - family-names: "Abdul Hafez"
     given-names: "A. H."
+    affiliation: "Department of Computer Science, College of Computer Sciences and Information Technology, King Faisal University, Al-Ahsa, Saudi Arabia"
   - family-names: "Alqaraleh"
     given-names: "Saed"
+    affiliation: "Department of Data Science and Artificial Intelligence, College of Information Technology, Mutah University, Karak, Jordan"
 repository-code: "https://github.com/saed-alqaraleh/peav-geolocalization-reproducibility"
 keywords:
   - visual place recognition
