@@ -3,6 +3,8 @@ message: "Please cite the associated software release when using the verificatio
 title: "PEAV: Reproducibility Resources for Visual Geolocalization Verification"
 type: software
 version: 1.0.0
+doi: "10.5281/zenodo.23437658"
+date-released: 2026-10-17
 authors:
   - family-names: "Abdul Hafez"
     given-names: "A. H."
